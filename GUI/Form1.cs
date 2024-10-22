@@ -236,5 +236,11 @@ namespace GUI
                 
             }
         }
+
+        private void đăngKýChuyênNgànhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDangKyChuyenNganh frmDangKyChuyen = new frmDangKyChuyenNganh();
+            frmDangKyChuyen.ShowDialog();
+        }
     }
 }

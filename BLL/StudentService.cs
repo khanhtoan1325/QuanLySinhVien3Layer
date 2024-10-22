@@ -48,5 +48,10 @@ namespace BLL
                 throw new ArgumentException("Sinh viên không tồn tại.");
             }
         }
+
+        public bool RegisterMajor(int studentID, int majorID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
